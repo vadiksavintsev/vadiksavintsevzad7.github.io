@@ -33,13 +33,6 @@ header{
     top: 50%;
     margin: -30px 0px 0px 0px;
 }
-
-@media screen and (max-width:1024px){
-    img{
-        width: 150px;
-        height: 150px;
-    }
-}
 .slider .slick-arrow.slick-prev{
     left:0;
     background-image: url('left.png');
@@ -84,4 +77,11 @@ img{
 
 .slider__item img{
     max-width: 100%;
+}
+
+@media screen and (max-width:1024px){
+    img{
+        width: 150px;
+        height: 150px;
+    }
 }
